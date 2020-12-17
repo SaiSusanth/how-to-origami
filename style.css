@@ -1,0 +1,52 @@
+menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: cursive;
+    color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+
+.grid{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.origami img{
+    border: 2px solid black;
+    border-width: 50px;
+}
+
+.origami {
+
+    width: 310px;
+    font-family: fantasy;
+
+    padding-right:100px;
+    padding-left:100px;
+
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.top-right {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: ivory;
+  }
